@@ -113,7 +113,8 @@ export default defineConfig((config) => {
     ],
     server: {
       allowedHosts: [
-        'bolt-y729.onrender.com', // Add the allowed host here
+        'bolt-y729.onrender.com',
+        'baobabstackbolt.up.railway.app', // Add the allowed host here
       ],
     },
     envPrefix: [
